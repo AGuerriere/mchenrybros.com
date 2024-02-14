@@ -6,10 +6,9 @@ export default function Home() {
     <>
       <Navbar />
       {/* Header */}
-      <div>
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-col lg:flex-row min-h-[calc(100vh-100px)]">
           {/* Left (top mobile) */}
-          <div className="flex flex-col lg:w-2/5 p-5 2xl:pl-20 justify-center">
+          <div className="flex flex-col lg:w-2/5 p-5 2xl:pl-20 justify-center min-h-[calc(50vh-50px)]">
             <h1 className="text-stone-900 text-opacity-90 xl:text-7xl text-4xl font-bold capitalize leading-normal">Welcome to <div className="text-gold">McHenry Bros</div></h1>
             <p className="text-stone-900 text-opacity-90 text-2xl text-base font-normal leading-10 pt-7 xl:w-2/3 pb-[43px]">From a first home, a luxury upgrade, a holiday retreat, or a peaceful retirement, we have something for you.</p>
             {/* This green box appears only on larger screens */}
@@ -19,7 +18,7 @@ export default function Home() {
             </div>
           </div>
           {/* right (bottom mobile*/}
-          <div className="lg:w-3/5 relative h-[calc(100vh-450px)] lg:h-[calc(100vh-100px)]">
+          <div className="lg:w-3/5 relative min-h-[calc(50vh-50px)]">
             {/* This green box appear only on smaller screens */}
             <div className="block absolute top-0 left-10 z-50 lg:hidden w-[300px] h-[117px] px-[60px] py-[25px] bg-emerald-600 flex-col justify-center items-start gap-[18px] inline-flex">
               <div className="self-stretch text-white text-2xl font-bold lowercase">30+ years</div>
@@ -34,14 +33,13 @@ export default function Home() {
             />
           </div>
         </div>
-      </div>
       {/* Main */}
       <div className="flex justify-center">
       <div className="max-w-[1278px]">
         {/* Our Values */}
         <div className="flex flex-col items-center pt-10 pb-10 pl-5 pr-5">
           <h5 className="text-neutral-700 lg:text-[40px] text-[32px] font-bold pb-7">Our Values</h5>
-          <p className="pb-7">We are passionate about building homes and communities that enhance the lives of our customers and the environment. </p>
+          <p className="pb-7 text-neutral-700 text-xl font-normal leading-[30px]">We are passionate about building homes and communities that enhance the lives of our customers and the environment. </p>
           <h6 className="pb-7 text-neutral-700 text-xl leading-[30px] font-bold">We are committed to:</h6>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-9">
             <div className="flex flex-col p-5 xl:pb-8 pb-10 items-center text-white bg-emerald-600 shadow">
