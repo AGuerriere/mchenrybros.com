@@ -16,12 +16,14 @@ export default function Navbar() {
       {/* Desktop */}
       <nav className="hidden lg:flex w-full justify-between h-[100px] items-center">
         <div className="pl-10">
+        <Link href="/">
           <Image
             src="/images/logo.webp"
             width={105}
             height={64}
             alt="McHenry Bros logo"
           />
+          </Link>
         </div>
         <ul className="flex w-1/2 justify-between h-full items-center [&_li]:h-full [&_li]:flex [&_li]:items-center">
           <li><Link href="/">HOME</Link></li>
@@ -33,12 +35,14 @@ export default function Navbar() {
       {/* Mobile Closed */}
       <nav className="flex lg:hidden w-full justify-between h-[100px] items-center pl-1 pr-6">
         <div className="">
+        <Link href="/">
           <Image
             src="/images/logo.webp"
             width={105}
             height={64}
             alt="McHenry Bros logo"
           />
+          </Link>
         </div>
         <div className="">
           <Image
