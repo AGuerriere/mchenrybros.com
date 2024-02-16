@@ -22,6 +22,7 @@ export default function Footer() {
                 <li><Link href="/about">ABOUT US</Link></li>
                 <li><Link href="/portfolio">PORTFOLIO</Link></li>
                 <li><a href="https://mchenrybros.com/#contact-us">CONTACT US</a></li>
+                <li><a href="https://www.facebook.com/mchenrybros">FOLLOW US</a></li>
               </ul>
             </div>
             <div>
