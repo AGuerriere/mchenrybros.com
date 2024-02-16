@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ContactForm from "./components/ContactForm";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -84,7 +85,7 @@ export default function Home() {
                 <h6 className="pb-5 lg:text-2xl text-base font-semibold leading-[25px] tracking-wide mb-3">Higher end and luxury homes</h6>
                 <p className="mb-3 lg:text-xl text-base font-normal leading-[30px]">We build stunning and spacious houses for those who want to upgrade to a more luxurious and comfortable living. Our higher end and luxury houses feature premium quality fixtures and fittings, elegant and modern designs, and spacious and landscaped gardens</p>
                 <div className="border-solid border-2 border-white w-[168px] h-16 flex justify-center items-center">
-                  Learn more &rarr;
+                  <Link href="/portfolio">Learn more &rarr;</Link>
                 </div>
               </div>
             </div>
@@ -103,7 +104,7 @@ export default function Home() {
                 <h6 className="pb-5 lg:text-2xl text-base font-semibold leading-[25px] tracking-wide mb-3">Family homes and first time buyers</h6>
                 <p className="mb-3 lg:text-xl text-base font-normal leading-[30px]">We have a variety of sites and designs to choose from, all built to the highest standards and certified by NHBC. You can also customize your home with our bespoke options and finishes.</p>
                 <div className="border-solid border-2 border-white w-[168px] h-16 flex justify-center items-center">
-                  Learn more &rarr;
+                  <Link href="/portfolio">Learn more &rarr;</Link>
                 </div>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function Home() {
                 <h6 className="pb-5 lg:text-2xl text-base font-semibold leading-[25px] tracking-wide mb-3">Commercial Properties</h6>
                 <p className="mb-3 lg:text-xl text-base font-normal leading-[30px]">We have experience in delivering successful commercial projects, such as the Salthouse Hotel in Ballycastle, a stunning eco-friendly boutique hotel overlooking the sea.</p>
                 <div className="border-solid border-2 border-white w-[168px] h-16 flex justify-center items-center">
-                  Learn more &rarr;
+                  <Link href="/portfolio">Learn more &rarr;</Link>
                 </div>
               </div>
             </div>
@@ -134,7 +135,7 @@ export default function Home() {
             <h5 className="text-neutral-700 lg:text-[40px] text-xl lg:text-[32px] font-bold pb-7">Our Work</h5>
             <p className="pb-7 text-neutral-700 text-xl font-normal leading-[30px]">We offer a range of services to suit your needs and budget, including:</p>
             <div className="border-solid border-2 border-gold w-[190px] text-gold h-16 lg:text-xl font-semibold text-base flex justify-center items-center mb-[100px]">
-              See all projects
+            <Link href="/portfolio">See all projects</Link>
             </div>
             <div className="flex flex-col lg:flex-row w-full">
               <div className="flex flex-col w-full mr-5">

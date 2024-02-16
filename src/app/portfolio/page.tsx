@@ -19,7 +19,7 @@ export default function Portfolio() {
       <div className="flex justify-center">
         <div className="max-w-[1278px] flex flex-col items-center pl-5 pr-5">
           <div className="mt-[50px] mb-[50px]"><span className="text-neutral-700 text-[32px] lg:text-5xl font-bold capitalize">Our </span><span className="text-gold text-[32px] lg:text-5xl font-bold capitalize">Portfolio</span><span className="text-neutral-700 text-[32px] lg:text-5xl font-bold capitalize"> </span></div>
-          <div className="text-neutral-700 text-base lg:text-2xl font-normalleading-10 mb-[100px]">At McHenry Bros Ltd, we take pride in our diverse portfolio of construction projects. From luxurious hotels to practical commercial spaces, our work reflects our commitment to quality, innovation, and community values. <br /><br />Explore our key projects to see how we're building the future, one project at a time.</div>
+          <div className="text-neutral-700 text-base lg:text-2xl font-normalleading-10 mb-[100px]">At McHenry Bros Ltd, we take pride in our diverse portfolio of construction projects. From luxurious hotels to practical commercial spaces, our work reflects our commitment to quality, innovation, and community values. <br /><br />Explore our key projects to see how we are building the future, one project at a time.</div>
           {/* First portfolio item */}
           <div className="text-neutral-700 text-base lg:text-2xl font-semibold mb-8">The Salthouse Hotel</div>
           <div className="text-neutral-700 text-lg font-normal mb-8">An Oasis of Luxury</div>
