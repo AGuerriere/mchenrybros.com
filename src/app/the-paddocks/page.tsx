@@ -8,7 +8,7 @@ export default function ThePaddocks() {
       <Navbar />
       <div className="w-full relative h-[383px]">
         <Image
-          src="/images/chalets_construction.webp"
+          src="/images/detached.webp"
           fill
           sizes="100%"
           alt="Picture of a house in Ballycastle built by McHenry Bros"
