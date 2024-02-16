@@ -31,8 +31,8 @@ export default function Navbar() {
         </ul>
       </nav>
       {/* Mobile Closed */}
-      <nav className="flex lg:hidden w-full justify-between h-[100px] items-center">
-        <div className="pl-10">
+      <nav className="flex lg:hidden w-full justify-between h-[100px] items-center pl-1 pr-6">
+        <div className="">
           <Image
             src="/images/logo.webp"
             width={105}
@@ -40,7 +40,7 @@ export default function Navbar() {
             alt="McHenry Bros logo"
           />
         </div>
-        <div className="pr-14">
+        <div className="">
           <Image
             src="/images/menu.svg"
             width={34}
