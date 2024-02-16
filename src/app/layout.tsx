@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    images: '/images/logo-white.png',
+    images: '/images/logo-bg.jpg',
     title: 'McHenry Bros',
     description: 'McHenry Bros, a construction company based in Ballycastle.',
     url: 'https://mchenrybros.com/',
