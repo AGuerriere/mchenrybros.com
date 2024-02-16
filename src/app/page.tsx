@@ -203,7 +203,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row p-5">
             {/* Left */}
             <div className="flex flex-col lg:mr-10 w-full lg:w-1/2">
-              <h5 className="text-neutral-700 lg:text-[40px] text-[32px] font-bold pb-7">Contact Us</h5>
+              <h5 id="contact-us" className="text-neutral-700 lg:text-[40px] text-[32px] font-bold pb-7">Contact Us</h5>
               <p className="mb-7">If you are interested in any of our services or want to find out more about our current and upcoming projects, please contact us today.</p>
               <p className="mb-7">Call Darren on: <span className="text-gold">+44 7751 116624</span> - Email: darrenmchenry@gmail.com</p>
               <p className="mb-7">Call Jonathan on:<span className="text-gold"> +44 7763 071143</span> - Email: jonathanmchenry2@gmail.com</p>

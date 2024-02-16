@@ -4,10 +4,10 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
-      <div className="bg-zinc-300 bg-opacity-20 lg:p-10">
+      <div className="bg-zinc-300 bg-opacity-20 lg:pt-10 lg:pb-10 pb-5 pt-5 lg:pt-10 lg:pb-10">
         <div className="flex justify-center">
           <div className="max-w-[1278px] flex flex-col lg:flex-row justify-between w-full pl-5 pr-5">
-            <div className="mb-8">
+            <div className="mb-8 -ml-4">
               <Image
                 src="/images/logo.webp"
                 width={105}
