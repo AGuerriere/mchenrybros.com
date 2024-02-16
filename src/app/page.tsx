@@ -74,7 +74,7 @@ export default function Home() {
             <div className="flex flex-col lg:flex-row">
               <div className="w-full lg:w-1/2 relative h-[430px] order-2 lg:order-1">
                 <Image
-                  src="/images/detached.webp"
+                  src="/images/interior.webp"
                   fill
                   sizes="100%"
                   alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -150,7 +150,7 @@ export default function Home() {
                   <div className="absolute inset-0 bg-emerald-600 bg-opacity-0 group-hover:bg-opacity-80 transition duration-300 ease-in-out"></div>
                   <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
                     <p className="text-white text-xl lg:text-[32px] font-semibold">The Salthouse Hotel</p>
-                    <p className="text-white underline text-xl font-normal leading-normal"> Learn more &rarr;</p>
+                    <p className="text-white underline text-xl font-normal leading-normal"><Link href="/salthouse-hotel">Learn more &rarr;</Link></p>
                   </div>
                 </div>
                 <div className="w-full relative h-[400px] lg:h-[367px] mb-5 group">
@@ -164,7 +164,7 @@ export default function Home() {
                   <div className="absolute inset-0 bg-emerald-600 bg-opacity-0 group-hover:bg-opacity-80 transition duration-300 ease-in-out"></div>
                   <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
                     <p className="text-white text-xl lg:text-[32px] font-semibold">The Salthouse Chalets</p>
-                    <p className="text-white underline text-xl font-normal leading-normal"> Learn more &rarr;</p>
+                    <p className="text-white underline text-xl font-normal leading-normal"><Link href="/salthouse-hotel"> Learn more &rarr;</Link></p>
                   </div>
                 </div>
               </div>
@@ -180,7 +180,7 @@ export default function Home() {
                   <div className="absolute inset-0 bg-emerald-600 bg-opacity-0 group-hover:bg-opacity-80 transition duration-300 ease-in-out"></div>
                   <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
                     <p className="text-white text-xl lg:text-[32px] font-semibold">Ballycastle Homecare</p>
-                    <p className="text-white underline text-xl font-normal leading-normal"> Learn more &rarr;</p>
+                    <p className="text-white underline text-xl font-normal leading-normal"><Link href="/ballycastle-homecare"> Learn more &rarr;</Link></p>
                   </div>
                 </div>
                 <div className="w-full relative h-[400px] lg:h-[338px] group">
@@ -194,7 +194,7 @@ export default function Home() {
                   <div className="absolute inset-0 bg-emerald-600 bg-opacity-0 group-hover:bg-opacity-80 transition duration-300 ease-in-out"></div>
                   <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
                     <p className="text-white text-xl lg:text-[32px] font-semibold">The Paddocks</p>
-                    <p className="text-white underline text-xl font-normal leading-normal"> Learn more &rarr;</p>
+                    <p className="text-white underline text-xl font-normal leading-normal"><Link href="/the-paddocks"> Learn more &rarr;</Link></p>
                   </div>
                 </div>
               </div>

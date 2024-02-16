@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import Image from "next/image"
 import SeeProjectButton from "../components/SeeProjectButton"
+import Link from "next/link"
 
 export default function Portfolio() {
   return (
@@ -23,7 +24,7 @@ export default function Portfolio() {
           {/* First portfolio item */}
           <div className="text-neutral-700 text-base lg:text-2xl font-semibold mb-8">The Salthouse Hotel</div>
           <div className="text-neutral-700 text-lg font-normal mb-8">An Oasis of Luxury</div>
-          <SeeProjectButton />
+          <Link href="/salthouse-hotel"><SeeProjectButton /></Link>
           <div className="flex flex-col lg:flex-row w-full mt-10 gap-4">
             <div className="relative h-[430px] w-full order-2 lg:order-1">
               <Image
