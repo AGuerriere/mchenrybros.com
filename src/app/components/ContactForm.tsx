@@ -27,7 +27,6 @@ export default function ContactForm() {
             className="w-full h-full min-h-[300px] border-none"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4554.236378666955!2d-6.25119245130138!3d55.19869289153625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4861d3cd0c5eaaab%3A0x9c0700f19c89ab6c!2sMcHenry%20Bros%20Ltd!5e0!3m2!1sen!2suk!4v1708093786911!5m2!1sen!2suk"
             allowFullScreen
-            loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
