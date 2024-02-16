@@ -18,10 +18,10 @@ export default function Footer() {
             <div className="text-base leading-normal text-neutral-700">
               <p className="mb-8 font-bold">Quick Links</p>
               <ul className="mb-8">
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Portfolio</li>
-                <li>Contact Us</li>
+                <li><Link href="/">HOME</Link></li>
+                <li><Link href="/about">ABOUT US</Link></li>
+                <li><Link href="/portfolio">PORTFOLIO</Link></li>
+                <li><a href="https://mchenrybros.com/#contact-us">CONTACT US</a></li>
               </ul>
             </div>
             <div>
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="bg-emerald-600 text-white flex flex-row justify-evenly items-center">
-          <p>McHenry Bros &copy;</p>
+        <p>McHenry Bros &copy;</p>
         <Link href="https://mindtechnica.com/">
           <Image
             src="/images/mindtechnica.png"

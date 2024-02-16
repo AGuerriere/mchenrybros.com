@@ -24,9 +24,9 @@ export default function Navbar() {
           />
         </div>
         <ul className="flex w-1/2 justify-between h-full items-center [&_li]:h-full [&_li]:flex [&_li]:items-center">
-          <li>HOME</li>
-          <li>ABOUT US</li>
-          <li>PORTFOLIO</li>
+          <li><Link href="/">HOME</Link></li>
+          <li><Link href="/about">ABOUT US</Link></li>
+          <li><Link href="/portfolio">PORTFOLIO</Link></li>
           <li className="bg-emerald-600 pl-20 pr-20 text-white"><a href="https://mchenrybros.com/#contact-us">CONTACT US</a></li>
         </ul>
       </nav>
@@ -73,8 +73,8 @@ export default function Navbar() {
           />
         </div>
         <Link href="/" className="text-center w-3/4 active:text-black pb-7 border-solid border-b-2" onClick={() => triggerToggle()}>Home</Link>
-        <Link href="/" className="text-center w-3/4 active:text-black pb-7 pt-7 border-solid border-b-2" onClick={() => triggerToggle()}>About</Link>
-        <Link href="/" className="text-center w-3/4 active:text-black pb-7 pt-7 border-solid border-b-2" onClick={() => triggerToggle()}>Portfolio</Link>
+        <Link href="/about" className="text-center w-3/4 active:text-black pb-7 pt-7 border-solid border-b-2" onClick={() => triggerToggle()}>About</Link>
+        <Link href="/portfolio" className="text-center w-3/4 active:text-black pb-7 pt-7 border-solid border-b-2" onClick={() => triggerToggle()}>Portfolio</Link>
         <a href="https://mchenrybros.com/#contact-us" className="text-center w-[216px] h-[69.78px] active:text-black mt-7 flex items-center justify-center bg-emerald-600 rounded-[17px] text-white" onClick={() => triggerToggle()}>Contact Us</a>
       </nav>
 
