@@ -2,9 +2,9 @@ export default function ContactForm() {
   return (
     <>
       {/* Contacts */}
-      <div className="flex flex-col lg:flex-row p-5">
+      <div className="flex flex-col lg:flex-row p-5 mb-10">
         {/* Left */}
-        <div className="flex flex-col lg:mr-10 w-full lg:w-1/2">
+        <div className="flex flex-col lg:mr-10 w-full lg:w-1/2 text-black text-xl font-normal leading-loose">
           <h5 id="contact-us" className="text-neutral-700 lg:text-[40px] text-[32px] font-bold pb-7">Contact Us</h5>
           <p className="mb-7">If you are interested in any of our services or want to find out more about our current and upcoming projects, please contact us today.</p>
           <p className="mb-7">Call Darren on: <span className="text-gold">+44 7751 116624</span> - Email: darrenmchenry@gmail.com</p>
