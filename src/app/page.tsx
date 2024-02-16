@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -113,7 +114,7 @@ export default function Home() {
                   fill
                   sizes="100%"
                   alt="Picture of a house in Ballycastle built by McHenry Bros"
-                  className="w-auto object-cover z-0"
+                  className="w-auto object-cover"
                 />
               </div>
               <div className="flex flex-col w-full lg:w-1/2 p-5 justify-center items-center lg:items-start text-white bg-emerald-600 h-[430px] order-1 lg:order-2">
@@ -129,26 +130,110 @@ export default function Home() {
           {/* Our Work */}
           {/* Section Title */}
           <div className="flex flex-col items-center pt-10 pb-10 pl-5 pr-5">
-            <h5 className="text-neutral-700 lg:text-[40px] text-[32px] font-bold pb-7">Our Work</h5>
+            <h5 className="text-neutral-700 lg:text-[40px] text-xl lg:text-[32px] font-bold pb-7">Our Work</h5>
             <p className="pb-7 text-neutral-700 text-xl font-normal leading-[30px]">We offer a range of services to suit your needs and budget, including:</p>
-            <div className="border-solid border-2 border-gold w-[168px] text-gold h-16 lg:text-xl font-semibold text-base flex justify-center items-center">
-              Learn more
+            <div className="border-solid border-2 border-gold w-[190px] text-gold h-16 lg:text-xl font-semibold text-base flex justify-center items-center mb-[100px]">
+              See all projects
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-9">
-              <div className="w-full lg:w-1/2 relative h-[430px]">
-                <Image
-                  src="/images/chalet.webp"
-                  fill
-                  sizes="100%"
-                  alt="Picture of a house in Ballycastle built by McHenry Bros"
-                  className="w-auto object-cover z-0"
-                />
+            <div className="flex flex-col lg:flex-row w-full">
+              <div className="flex flex-col w-full mr-5">
+                <div className="w-full relative h-[400px] lg:h-[288px] mb-5 group">
+                  <Image
+                    src="/images/chalets_construction.webp"
+                    fill
+                    sizes="100%"
+                    alt="Picture of a house in Ballycastle built by McHenry Bros"
+                    className="w-auto object-cover"
+                  />
+                  <div className="absolute inset-0 bg-emerald-600 bg-opacity-0 group-hover:bg-opacity-80 transition duration-300 ease-in-out"></div>
+                  <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                    <p className="text-white text-xl lg:text-[32px] font-semibold">The Salthouse Hotel</p>
+                    <p className="text-white underline text-xl font-normal leading-normal"> Learn more &rarr;</p>
+                  </div>
+                </div>
+                <div className="w-full relative h-[400px] lg:h-[367px] mb-5 group">
+                  <Image
+                    src="/images/homecare.webp"
+                    fill
+                    sizes="100%"
+                    alt="Picture of a house in Ballycastle built by McHenry Bros"
+                    className="w-auto object-cover"
+                  />
+                  <div className="absolute inset-0 bg-emerald-600 bg-opacity-0 group-hover:bg-opacity-80 transition duration-300 ease-in-out"></div>
+                  <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                    <p className="text-white text-xl lg:text-[32px] font-semibold">The Salthouse Chalets</p>
+                    <p className="text-white underline text-xl font-normal leading-normal"> Learn more &rarr;</p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col w-full">
+                <div className="w-full relative h-[400px] lg:h-[320px] mb-5 group">
+                  <Image
+                    src="/images/chalet.webp"
+                    fill
+                    sizes="100%"
+                    alt="Picture of a chalet by McHenry Bros"
+                    className="w-auto object-cover"
+                  />
+                  <div className="absolute inset-0 bg-emerald-600 bg-opacity-0 group-hover:bg-opacity-80 transition duration-300 ease-in-out"></div>
+                  <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                    <p className="text-white text-xl lg:text-[32px] font-semibold">Ballycastle Homecare</p>
+                    <p className="text-white underline text-xl font-normal leading-normal"> Learn more &rarr;</p>
+                  </div>
+                </div>
+                <div className="w-full relative h-[400px] lg:h-[338px] group">
+                  <Image
+                    src="/images/paddocks.webp"
+                    fill
+                    sizes="100%"
+                    alt="Picture of paddocks by McHenry Bros"
+                    className="w-auto object-cover"
+                  />
+                  <div className="absolute inset-0 bg-emerald-600 bg-opacity-0 group-hover:bg-opacity-80 transition duration-300 ease-in-out"></div>
+                  <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                    <p className="text-white text-xl lg:text-[32px] font-semibold">The Paddocks</p>
+                    <p className="text-white underline text-xl font-normal leading-normal"> Learn more &rarr;</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           {/* Our Work End */}
+          {/* Contacts */}
+          <div className="flex flex-col lg:flex-row p-5">
+            {/* Left */}
+            <div className="flex flex-col lg:mr-10 w-full lg:w-1/2">
+              <h5 className="text-neutral-700 lg:text-[40px] text-[32px] font-bold pb-7">Contact Us</h5>
+              <p className="mb-7">If you are interested in any of our services or want to find out more about our current and upcoming projects, please contact us today.</p>
+              <p className="mb-7">Call Darren on: <span className="text-gold">+44 7751 116624</span> - Email: darrenmchenry@gmail.com</p>
+              <p className="mb-7">Call Jonathan on:<span className="text-gold"> +44 7763 071143</span> - Email: jonathanmchenry2@gmail.com</p>
+              <p className="mb-7">Or simply fill out the form below. We look forward to hearing from you.</p>
+              <form name="contact" method="POST" action="/success" data-netlify="true" className="flex flex-col mb-10">
+                <input type="text" name="name" id="name" placeholder="Name*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
+                <input type="email" name="email" id="email" placeholder="Email*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
+                <input type="tel" name="tel" id="tel" placeholder="Mobile Number*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
+                <input type="text" name="subject" id="subject" placeholder="Subject*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
+                <input type="text" name="text" id="text" placeholder="Type your message here*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
+                <button className="w-[200px] h-12 px-6 py-3 bg-emerald-600 rounded-[5px] justify-center items-center gap-2 inline-flex">
+                  <div className="text-white text-base font-semibold leading-normal">Send</div>
+                </button>
+              </form>
+            </div>
+            {/* Right */}
+            <div className="w-full lg:w-1/2">
+              <iframe
+                className="w-full h-full min-h-[300px] border-none"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4554.236378666955!2d-6.25119245130138!3d55.19869289153625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4861d3cd0c5eaaab%3A0x9c0700f19c89ab6c!2sMcHenry%20Bros%20Ltd!5e0!3m2!1sen!2suk!4v1708093786911!5m2!1sen!2suk"
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          {/* Contacts End */}
         </div>
       </div>
+      <Footer />
     </>
   );
 }
