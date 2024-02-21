@@ -6,3 +6,13 @@
 .wide-div {
   margin-left: calc(-50vw + 50%);
 }
+
+#home a#homenav,
+#portfolio a#portfolionav,
+#about a#aboutnav,
+#contact a#connav,
+#salthouse a#portfolionav,
+#paddocks a#portfolionav,
+#homecare a#portfolionav {
+    font-weight: 700;
+}

@@ -26,10 +26,10 @@ export default function Navbar() {
           </Link>
         </div>
         <ul className="flex w-1/2 justify-between h-full items-center [&_li]:h-full [&_li]:flex [&_li]:items-center">
-          <li><Link href="/">HOME</Link></li>
-          <li><Link href="/about">ABOUT US</Link></li>
-          <li><Link href="/portfolio">PORTFOLIO</Link></li>
-          <li className="bg-emerald-600 pl-20 pr-20 text-white"><a href="https://mchenrybros.com/#contact-us">CONTACT US</a></li>
+          <li><Link href="/" id="homenav" className="hover:underline hover:decoration-2 hover:font-bold">HOME</Link></li>
+          <li><Link href="/about" id="aboutnav" className="hover:underline hover:decoration-2 hover:font-bold">ABOUT US</Link></li>
+          <li><Link href="/portfolio" id="portfolionav" className="hover:underline hover:decoration-2 hover:font-bold">PORTFOLIO</Link></li>
+          <li className="bg-emerald-600 w-[250px] text-white flex justify-center"><a href="https://mchenrybros.com/#contact-us" className="hover:underline hover:decoration-2 hover:font-bold max-content">CONTACT US</a></li>
         </ul>
       </nav>
       {/* Mobile Closed */}

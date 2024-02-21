@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <>
+    <div id="home">
       <Navbar />
       {/* Header */}
       <div className="flex flex-col lg:flex-row min-h-[calc(100vh-100px)]">
@@ -45,7 +45,7 @@ export default function Home() {
             <p className="pb-7 text-neutral-700 text-xl font-normal leading-[30px]">We are passionate about building homes and communities that enhance the lives of our customers and the environment. </p>
             <h6 className="pb-7 text-neutral-700 text-xl leading-[30px] font-bold">We are committed to:</h6>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-9">
-              <div className="flex flex-col p-5 xl:pb-8 pb-10 items-center text-white bg-emerald-600 shadow">
+              <div className="flex flex-col p-5 xl:pb-8 pb-10 items-center text-center text-white bg-emerald-600 shadow">
                 <h6 className="pb-5 lg:text-2xl text-base font-semibold leading-[25px] tracking-wide">Quality</h6>
                 <p>We use only the best materials and techniques to ensure our homes are durable, comfortable, and energy-efficient.</p>
               </div>
@@ -53,11 +53,11 @@ export default function Home() {
                 <h6 className="pb-5 lg:text-2xl text-base font-semibold leading-[25px] tracking-wide ">Customer Satisfaction</h6>
                 <p>We listen to your needs and preferences and provide you with honest and professional advice. We also offer after-sales support and warranty for your peace of mind.</p>
               </div>
-              <div className="flex flex-col p-5 xl:pb-8 pb-10 items-center shadow border-b-8 border-emerald-600">
+              <div className="flex flex-col p-5 xl:pb-8 pb-10 items-center text-center shadow border-b-8 border-emerald-600">
                 <h6 className="pb-5 lg:text-2xl text-base font-semibold leading-[25px] tracking-wide">Local Community</h6>
                 <p>We are proud to be part of the Ballycastle community and support local businesses and charities. </p>
               </div>
-              <div className="flex flex-col p-5 xl:pb-8 pb-10 items-center shadow border-b-8 border-emerald-600">
+              <div className="flex flex-col p-5 xl:pb-8 pb-10 items-center text-center shadow border-b-8 border-emerald-600">
                 <h6 className="pb-5 lg:text-2xl text-base font-semibold leading-[25px] tracking-wide">Environment</h6>
                 <p>We respect the natural beauty and heritage of the area and strive to minimize our impact on the environment and promote sustainability and green energy.</p>
               </div>
@@ -84,7 +84,7 @@ export default function Home() {
               <div className="flex flex-col w-full lg:w-1/2 p-5 lg:pl- justify-center items-center lg:items-start text-white bg-emerald-600 h-[430px] order-1 lg:order-2">
                 <h6 className="pb-5 lg:text-2xl text-base font-semibold leading-[25px] tracking-wide mb-3">Higher end and luxury homes</h6>
                 <p className="mb-3 lg:text-xl text-base font-normal leading-[30px]">We build stunning and spacious houses for those who want to upgrade to a more luxurious and comfortable living. Our higher end and luxury houses feature premium quality fixtures and fittings, elegant and modern designs, and spacious and landscaped gardens</p>
-                <div className="border-solid border-2 border-white w-[168px] h-16 flex justify-center items-center">
+                <div className="border-solid border-2 border-white w-[168px] h-16 flex justify-center items-center hover:bg-white hover:text-black">
                   <Link href="/portfolio">Learn more &rarr;</Link>
                 </div>
               </div>
@@ -103,7 +103,7 @@ export default function Home() {
               <div className="flex flex-col w-full lg:w-1/2 p-5 justify-center items-center lg:items-start text-white bg-emerald-600 h-[430px] order-1">
                 <h6 className="pb-5 lg:text-2xl text-base font-semibold leading-[25px] tracking-wide mb-3">Family homes and first time buyers</h6>
                 <p className="mb-3 lg:text-xl text-base font-normal leading-[30px]">We have a variety of sites and designs to choose from, all built to the highest standards and certified by NHBC. You can also customize your home with our bespoke options and finishes.</p>
-                <div className="border-solid border-2 border-white w-[168px] h-16 flex justify-center items-center">
+                <div className="border-solid border-2 border-white w-[168px] h-16 flex justify-center items-center hover:bg-white hover:text-black">
                   <Link href="/portfolio">Learn more &rarr;</Link>
                 </div>
               </div>
@@ -122,7 +122,7 @@ export default function Home() {
               <div className="flex flex-col w-full lg:w-1/2 p-5 justify-center items-center lg:items-start text-white bg-emerald-600 h-[430px] order-1 lg:order-2">
                 <h6 className="pb-5 lg:text-2xl text-base font-semibold leading-[25px] tracking-wide mb-3">Commercial Properties</h6>
                 <p className="mb-3 lg:text-xl text-base font-normal leading-[30px]">We have experience in delivering successful commercial projects, such as the Salthouse Hotel in Ballycastle, a stunning eco-friendly boutique hotel overlooking the sea.</p>
-                <div className="border-solid border-2 border-white w-[168px] h-16 flex justify-center items-center">
+                <div className="border-solid border-2 border-white w-[168px] h-16 flex justify-center items-center hover:bg-white hover:text-black">
                   <Link href="/portfolio">Learn more &rarr;</Link>
                 </div>
               </div>
@@ -205,6 +205,6 @@ export default function Home() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }

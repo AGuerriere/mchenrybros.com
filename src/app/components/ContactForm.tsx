@@ -16,8 +16,8 @@ export default function ContactForm() {
             <input type="tel" name="tel" id="tel" placeholder="Mobile Number*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
             <input type="text" name="subject" id="subject" placeholder="Subject*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
             <input type="text" name="text" id="text" placeholder="Type your message here*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
-            <button className="w-[200px] h-12 px-6 py-3 bg-emerald-600 rounded-[5px] justify-center items-center gap-2 inline-flex">
-              <div className="text-white text-base font-semibold leading-normal">Send</div>
+            <button className="w-[200px] h-12 px-6 py-3 hover:bg-emerald-600 rounded-[5px] border-gold border-2 hover:border-0 text-gold hover:text-white justify-center items-center gap-2 inline-flex">
+              <div className="text-base font-semibold leading-normal">Send</div>
             </button>
           </form>
         </div>

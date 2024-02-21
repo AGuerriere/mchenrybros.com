@@ -6,7 +6,7 @@ import Link from "next/link"
 
 export default function Portfolio() {
   return (
-    <>
+    <div id="portfolio">
       <Navbar />
       <div className="w-full relative h-[383px]">
         <Image
@@ -98,6 +98,6 @@ export default function Portfolio() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   )
 }

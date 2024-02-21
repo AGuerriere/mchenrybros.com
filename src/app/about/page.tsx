@@ -5,7 +5,7 @@ import Image from "next/image"
 
 export default function About() {
   return (
-    <>
+    <div id="about">
       <Navbar />
       <div className="w-full relative h-[383px]">
         <Image
@@ -22,7 +22,7 @@ export default function About() {
 
           <div className="flex flex-col mb-10 pl-5 pr-5">
             {/* Top */}
-            <div className="text-neutral-700 text-xl font-normal leading-10 lg:mr-10">
+            <div className="flex flex-col justify-center w-full text-neutral-700 text-xl font-normal leading-10 lg:mr-10">
               <p className="mb-7">We are McHenry Bros Ltd, a family-run business with over 30 years of experience in building quality homes in Ballycastle and the surrounding areas. Our company was started in 1980 by John McHenry and Dennis McHenry, who are still overseeing the business as consultants and mentors. They had a vision to build homes for the people of Ballycastle, creating a strong and vibrant community and setting high standards of construction and customer service.</p>
               <p>Today, the company is run by their sons, Jonathan McHenry, Darren McHenry, and Pearse McHenry, who share the same passion and values as their fathers. Jonathan and Darren are involved in the everyday running of the construction sites, overseeing the work of our skilled and experienced team of builders, engineers, architects, and contractors. Pearse is involved with the administration and planning of the business, ensuring that everything runs smoothly and efficiently.</p>
             </div>
@@ -92,6 +92,6 @@ export default function About() {
       </div>
 
       <Footer />
-    </>
+    </div>
   )
 }

@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function ThePaddocks() {
   return (
-    <>
+    <div id="paddocks">
       <Navbar />
       <div className="w-full relative h-[383px]">
         <Image
@@ -92,6 +92,6 @@ export default function ThePaddocks() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   )
 }

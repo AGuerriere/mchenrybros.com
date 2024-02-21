@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function Salthouse() {
   return (
-    <>
+    <div id="salthouse">
       <Navbar />
       <div className="w-full relative h-[383px]">
         <Image
@@ -93,6 +93,6 @@ export default function Salthouse() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   )
 }
