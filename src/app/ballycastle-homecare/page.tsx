@@ -37,13 +37,9 @@ export default function Homecare() {
                 <div className="text-neutral-700 text-lg font-light leading-[30px] pb-5">Ballycastle, Northern Ireland</div>
                 <div className="text-neutral-700 text-lg font-semibold leading-[30px] pb-5">Project Details</div>
                 <ul className="list-inside list-disc marker:text-xs">
-                  <li className="text-neutral-700 text-lg font-light leading-[30px]">Spacious and modern showroom for Ballycastle Hopmecare</li>
+                  <li className="text-neutral-700 text-lg font-light leading-[30px]">Spacious and modern showroom for Ballycastle Homecare</li>
                   <li className="text-neutral-700 text-lg font-light leading-[30px]">Eco-friendly construction materials</li>
                   <li className="text-neutral-700 text-lg font-light leading-[30px]">3 Floors and warehouse</li>
-                </ul>
-                <div className="text-neutral-700 text-lg font-semibold leading-[30px] mt-10 mb-5">Completion & Opening</div>
-                <ul className="list-inside list-disc">
-                  <li><span className="font-semibold">Expected Completion Date:</span> November 2024</li>
                 </ul>
               </div>
 
