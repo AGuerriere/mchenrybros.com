@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
   metadataBase: new URL('https://mchenrybros.com'),
   icons: {
-    icon: '/favicon.ico',
+    icon: './favicon.ico',
   },
   alternates: {
     canonical: '/',

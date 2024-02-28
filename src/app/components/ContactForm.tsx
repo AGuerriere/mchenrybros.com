@@ -1,3 +1,6 @@
+
+import FormComponent from "./FormComponent";
+
 export default function ContactForm() {
   return (
     <>
@@ -10,16 +13,7 @@ export default function ContactForm() {
           <p className="mb-7">Call Darren on: <span className="text-gold">+44 7751 116624</span> - Email: darrenmchenry@gmail.com</p>
           <p className="mb-7">Call Jonathan on:<span className="text-gold"> +44 7763 071143</span> - Email: jonathanmchenry2@gmail.com</p>
           <p className="mb-7">Or simply fill out the form below. We look forward to hearing from you.</p>
-          <form name="contact" method="POST" action="/success" data-netlify="true" className="flex flex-col mb-10">
-            <input type="text" name="name" id="name" placeholder="Name*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
-            <input type="email" name="email" id="email" placeholder="Email*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
-            <input type="tel" name="tel" id="tel" placeholder="Mobile Number*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
-            <input type="text" name="subject" id="subject" placeholder="Subject*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
-            <input type="text" name="text" id="text" placeholder="Type your message here*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
-            <button className="w-[200px] h-12 px-6 py-3 hover:bg-emerald-600 rounded-[5px] border-gold border-2 hover:border-0 text-gold hover:text-white justify-center items-center gap-2 inline-flex">
-              <div className="text-base font-semibold leading-normal">Send</div>
-            </button>
-          </form>
+          <FormComponent />
         </div>
         {/* Right */}
         <div className="w-full lg:w-1/2">
