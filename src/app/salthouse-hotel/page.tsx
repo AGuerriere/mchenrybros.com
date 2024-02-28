@@ -8,7 +8,7 @@ export default function Salthouse() {
       <Navbar />
       <div className="w-full relative h-[383px]">
         <Image
-          src="/images/chalets_construction.webp"
+          src="./images/chalets_construction.webp"
           fill
           sizes="100%"
           alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -21,7 +21,7 @@ export default function Salthouse() {
           <div className="text-center text-neutral-700 text-base lg:text-2xl font-normalleading-10 mb-[100px]">An Oasis of Luxury<br /><br />The Salthouse Hotel is a testament to McHenry Bros Ltd&#39;s expertise in luxury construction. This exclusive hotel offers guests an escape to opulence with its comprehensive amenities and breathtaking views.</div>
           <div className="w-full relative h-[642px]">
             <Image
-              src="/images/aerial.webp"
+              src="./images/aerial.webp"
               fill
               sizes="100%"
               alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -53,7 +53,7 @@ export default function Salthouse() {
               <div className="grid grid-cols-2 gap-4 mb-10 mt-10">
                 <div className="w-full relative h-[220px]">
                   <Image
-                    src="/images/roof.webp"
+                    src="./images/roof.webp"
                     fill
                     sizes="100%"
                     alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -62,7 +62,7 @@ export default function Salthouse() {
                 </div>
                 <div className="w-full relative h-[220px]">
                   <Image
-                    src="/images/chalet2.webp"
+                    src="./images/chalet2.webp"
                     fill
                     sizes="100%"
                     alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -71,7 +71,7 @@ export default function Salthouse() {
                 </div>
                 <div className="w-full relative h-[220px]">
                   <Image
-                    src="/images/chalet-view.webp"
+                    src="./images/chalet-view.webp"
                     fill
                     sizes="100%"
                     alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -80,7 +80,7 @@ export default function Salthouse() {
                 </div>
                 <div className="w-full relative h-[220px]">
                   <Image
-                    src="/images/spa.webp"
+                    src="./images/spa.webp"
                     fill
                     sizes="100%"
                     alt="Picture of a house in Ballycastle built by McHenry Bros"

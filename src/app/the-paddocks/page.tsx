@@ -8,7 +8,7 @@ export default function ThePaddocks() {
       <Navbar />
       <div className="w-full relative h-[383px]">
         <Image
-          src="/images/detached.webp"
+          src="./images/detached.webp"
           fill
           sizes="100%"
           alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -21,7 +21,7 @@ export default function ThePaddocks() {
           <div className="text-center text-neutral-700 text-base lg:text-2xl font-normalleading-10 mb-[100px]">Where Luxury Meets Serenity<br /><br />The Paddocks is our current prestigious residential project, situated in the serene outskirts of Ballycastle. This development is set to redefine luxury living, offering a harmonious blend of modern architecture and the tranquil beauty of Northern Ireland&#39;s landscapes.</div>
           <div className="w-full relative h-[642px]">
             <Image
-              src="/images/paddocks.webp"
+              src="./images/paddocks.webp"
               fill
               sizes="100%"
               alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -52,7 +52,7 @@ export default function ThePaddocks() {
               <div className="grid grid-cols-2 gap-4 mb-10 mt-10">
                 <div className="w-full relative h-[220px]">
                   <Image
-                    src="/images/semi-kitchen.webp"
+                    src="./images/semi-kitchen.webp"
                     fill
                     sizes="100%"
                     alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -61,7 +61,7 @@ export default function ThePaddocks() {
                 </div>
                 <div className="w-full relative h-[220px]">
                   <Image
-                    src="/images/detached.webp"
+                    src="./images/detached.webp"
                     fill
                     sizes="100%"
                     alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -70,7 +70,7 @@ export default function ThePaddocks() {
                 </div>
                 <div className="w-full relative h-[220px]">
                   <Image
-                    src="/images/interior.webp"
+                    src="./images/interior.webp"
                     fill
                     sizes="100%"
                     alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -79,7 +79,7 @@ export default function ThePaddocks() {
                 </div>
                 <div className="w-full relative h-[220px]">
                   <Image
-                    src="/images/bathroom.webp"
+                    src="./images/bathroom.webp"
                     fill
                     sizes="100%"
                     alt="Picture of a house in Ballycastle built by McHenry Bros"

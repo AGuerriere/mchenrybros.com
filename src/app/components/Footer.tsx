@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="max-w-[1278px] flex flex-col lg:flex-row justify-between w-full pl-5 pr-5">
             <div className="mb-8 -ml-4">
               <Image
-                src="/images/logo.webp"
+                src="./images/logo.webp"
                 width={105}
                 height={64}
                 alt="McHenry Bros logo"
@@ -18,9 +18,9 @@ export default function Footer() {
             <div className="text-base leading-normal text-neutral-700">
               <p className="mb-8 font-bold">Quick Links</p>
               <ul className="mb-8">
-                <li><Link href="/">HOME</Link></li>
-                <li><Link href="/about">ABOUT US</Link></li>
-                <li><Link href="/portfolio">PORTFOLIO</Link></li>
+                <li><Link href="./">HOME</Link></li>
+                <li><Link href="./about">ABOUT US</Link></li>
+                <li><Link href="./portfolio">PORTFOLIO</Link></li>
                 <li><a href="https://mchenrybros.com/#contact-us">CONTACT US</a></li>
                 <li><a href="https://www.facebook.com/mchenrybros">FOLLOW US</a></li>
               </ul>
@@ -39,7 +39,7 @@ export default function Footer() {
         <p>McHenry Bros &copy;</p>
         <Link href="https://mindtechnica.com/">
           <Image
-            src="/images/mindtechnica.png"
+            src="./images/mindtechnica.png"
             width={80}
             height={70}
             alt="Mind Technica Logo"

@@ -8,7 +8,7 @@ export default function Homecare() {
       <Navbar />
       <div className="w-full relative h-[383px]">
         <Image
-          src="/images/homecare2.webp"
+          src="./images/homecare2.webp"
           fill
           sizes="100%"
           alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -21,7 +21,7 @@ export default function Homecare() {
           <div className="text-center text-neutral-700 text-base lg:text-2xl font-normalleading-10 mb-[100px]">Spacious commercial building<br /><br />For the Ballycastle Homecare commercial construction project, our team successfully completed a state-of-the-art, three-floor showroom and warehouse facility, emphasizing eco-friendly design and sustainable construction practices. Situated in the heart of Ballycastle, this modern structure combines functional retail space with efficient storage solutions, catering to the diverse needs of the homecare industry. The building&#39;s innovative design features energy-efficient materials and systems, reflecting our commitment to environmental stewardship while providing an inviting and practical space for customers and staff alike. This project not only enhances Ballycastle Homecare&#39;s operational capabilities but also sets a new standard for sustainable commercial construction in the region.</div>
           <div className="w-full relative h-[642px]">
             <Image
-              src="/images/homecare.webp"
+              src="./images/homecare.webp"
               fill
               sizes="100%"
               alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -48,7 +48,7 @@ export default function Homecare() {
               <div className="grid grid-cols-2 gap-4 mb-10 mt-10">
                 <div className="w-full relative h-[220px]">
                   <Image
-                    src="/images/semi-kitchen.webp"
+                    src="./images/semi-kitchen.webp"
                     fill
                     sizes="100%"
                     alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -57,7 +57,7 @@ export default function Homecare() {
                 </div>
                 <div className="w-full relative h-[220px]">
                   <Image
-                    src="/images/detached.webp"
+                    src="./images/detached.webp"
                     fill
                     sizes="100%"
                     alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -66,7 +66,7 @@ export default function Homecare() {
                 </div>
                 <div className="w-full relative h-[220px]">
                   <Image
-                    src="/images/interior.webp"
+                    src="./images/interior.webp"
                     fill
                     sizes="100%"
                     alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -75,7 +75,7 @@ export default function Homecare() {
                 </div>
                 <div className="w-full relative h-[220px]">
                   <Image
-                    src="/images/bathroom.webp"
+                    src="./images/bathroom.webp"
                     fill
                     sizes="100%"
                     alt="Picture of a house in Ballycastle built by McHenry Bros"

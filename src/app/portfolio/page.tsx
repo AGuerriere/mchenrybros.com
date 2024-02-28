@@ -10,7 +10,7 @@ export default function Portfolio() {
       <Navbar />
       <div className="w-full relative h-[383px]">
         <Image
-          src="/images/chalets_construction.webp"
+          src="./images/chalets_construction.webp"
           fill
           sizes="100%"
           alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -24,11 +24,11 @@ export default function Portfolio() {
           {/* First portfolio item */}
           <div className="text-neutral-700 text-base lg:text-2xl font-semibold mb-8">The Salthouse Hotel</div>
           <div className="text-neutral-700 text-lg font-normal mb-8">An Oasis of Luxury</div>
-          <Link href="/salthouse-hotel"><SeeProjectButton /></Link>
+          <Link href="./salthouse-hotel"><SeeProjectButton /></Link>
           <div className="flex flex-col lg:flex-row w-full mt-10 gap-4">
             <div className="relative h-[430px] w-full order-2 lg:order-1">
               <Image
-                src="/images/chalets_construction.webp"
+                src="./images/chalets_construction.webp"
                 fill
                 sizes="100%"
                 alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -37,7 +37,7 @@ export default function Portfolio() {
             </div>
             <div className="relative h-[430px] w-full order-2 lg:order-1">
               <Image
-                src="/images/chalet.webp"
+                src="./images/chalet.webp"
                 fill
                 sizes="100%"
                 alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -48,11 +48,11 @@ export default function Portfolio() {
         {/* Second portfolio item */}
         <div className="text-neutral-700 text-base lg:text-2xl font-semibold mb-8 mt-8">The Paddocks</div>
           <div className="text-neutral-700 text-lg font-normal mb-8">Where Luxury Meets Serenity</div>
-          <Link href="/the-paddocks"><SeeProjectButton /></Link>
+          <Link href="./the-paddocks"><SeeProjectButton /></Link>
           <div className="flex flex-col lg:flex-row w-full mt-10 gap-4">
             <div className="relative h-[430px] w-full order-2 lg:order-1">
               <Image
-                src="/images/semi-kitchen.webp"
+                src="./images/semi-kitchen.webp"
                 fill
                 sizes="100%"
                 alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -61,7 +61,7 @@ export default function Portfolio() {
             </div>
             <div className="relative h-[430px] w-full order-2 lg:order-1">
               <Image
-                src="/images/semi-kitchen2.webp"
+                src="./images/semi-kitchen2.webp"
                 fill
                 sizes="100%"
                 alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -73,11 +73,11 @@ export default function Portfolio() {
         {/* Third portfolio item */}
         <div className="text-neutral-700 text-base lg:text-2xl font-semibold mb-8 mt-8">Homecare Kitchens and Bathrooms</div>
           <div className="text-neutral-700 text-lg font-normal mb-8">Commercial Success</div>
-          <Link href="/ballycastle-homecare"><SeeProjectButton /></Link>
+          <Link href="./ballycastle-homecare"><SeeProjectButton /></Link>
           <div className="flex flex-col lg:flex-row w-full mt-10 gap-4">
             <div className="relative h-[430px] w-full order-2 lg:order-1">
               <Image
-                src="/images/homecare.webp"
+                src="./images/homecare.webp"
                 fill
                 sizes="100%"
                 alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -86,7 +86,7 @@ export default function Portfolio() {
             </div>
             <div className="relative h-[430px] w-full order-2 lg:order-1">
               <Image
-                src="/images/homecare2.webp"
+                src="./images/homecare2.webp"
                 fill
                 sizes="100%"
                 alt="Picture of a house in Ballycastle built by McHenry Bros"

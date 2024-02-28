@@ -9,7 +9,7 @@ export default function About() {
       <Navbar />
       <div className="w-full relative h-[383px]">
         <Image
-          src="/images/chalets_construction.webp"
+          src="./images/chalets_construction.webp"
           fill
           sizes="100%"
           alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -29,7 +29,7 @@ export default function About() {
             <div className="flex flex-col lg:flex-row gap-4 mb-10 mt-10">
               <div className="w-full relative h-[430px]">
                 <Image
-                  src="/images/roof.webp"
+                  src="./images/roof.webp"
                   fill
                   sizes="100%"
                   alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -38,7 +38,7 @@ export default function About() {
               </div>
               <div className="w-full relative h-[430px]">
                 <Image
-                  src="/images/chalet2.webp"
+                  src="./images/chalet2.webp"
                   fill
                   sizes="100%"
                   alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -51,7 +51,7 @@ export default function About() {
               <p className="mb-7">We offer a range of services to suit your needs and budget, from homes for families and first time buyers, to higher end and luxury houses, to commercial projects. We use only the best materials and techniques to ensure our homes are durable, comfortable, and energy-efficient. We also respect the natural beauty and heritage of the area and strive to minimize our impact on the environment and promote sustainability and green energy.</p>
               <p className="mb-7">We are proud to be part of the Ballycastle community and support local businesses and charities. We have built many successful projects in the area, such as the Salthouse Hotel, a stunning eco-friendly boutique hotel overlooking the sea. We have also received many awards and recognitions for our work, such as the <span className="text-gold">NHBC Pride in the Job Award.</span></p>
               <Image
-                src="/images/NHBC.png"
+                src="./images/NHBC.png"
                 width={105}
                 height={64}
                 alt="McHenry Bros logo"
@@ -63,7 +63,7 @@ export default function About() {
             <div className="flex flex-col lg:flex-row gap-4 mb-10 mt-10">
               <div className="w-full relative h-[430px]">
                 <Image
-                  src="/images/chalet-view.webp"
+                  src="./images/chalet-view.webp"
                   fill
                   sizes="100%"
                   alt="Picture of a house in Ballycastle built by McHenry Bros"
@@ -72,7 +72,7 @@ export default function About() {
               </div>
               <div className="w-full relative h-[430px]">
                 <Image
-                  src="/images/homecare2.webp"
+                  src="./images/homecare2.webp"
                   fill
                   sizes="100%"
                   alt="Picture of a house in Ballycastle built by McHenry Bros"
